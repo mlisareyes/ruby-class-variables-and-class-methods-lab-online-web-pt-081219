@@ -36,7 +36,6 @@ class Song
         genre_count[genre] += 1
       else
       genre_count[genre] = 1
-      binding.pry
     end
   end
   return genre_count
@@ -49,6 +48,7 @@ end
         artist_count[artist] += 1
       else 
         artist_count[artist] = 1
+        binding.pry
     end
   end
   return artist_count
